@@ -1,0 +1,88 @@
+body{
+  padding: 10px;  
+}
+
+.logo{
+  padding-bottom: 25px;
+}
+
+p {
+  margin: 0;
+  text-indent: 5ch;
+}
+
+.aga-1{  
+  background: url("../img/sobre-background.jpg");
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.centro-distribuicao figure{
+  border: 15px solid rgb(242, 237, 237);
+  width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+  background-color: rgb(242, 237, 237);
+  outline: 0.1px #c5c5c5;
+  outline-style:solid;
+}
+
+.centro-distribuicao img{  
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.texto {
+  padding: 25px 80px 25px 80px;
+  align-items: center;
+  text-align:justify;
+  text-justify: inter-word;
+}
+
+hr {
+  height: 1px;
+  background-color:black;
+}
+
+a {
+  text-decoration: underline !important;
+}
+
+.fig2 { 
+  float:right; 
+  border: 15px solid rgb(242, 237, 237);
+  width: 330px;
+  margin: 10px;
+  font-style: italic;
+  background-color: rgb(242, 237, 237);
+  outline: 0.1px #c5c5c5;
+  outline-style:solid;
+}
+
+.fig2 figcaption{
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.familia{
+  float:right; 
+  padding-top: 20px;
+  padding-right: 80px;
+}
+
+.logoFinal{
+    padding-top: 30px;
+    width:100px; 
+    height: auto;    
+}
+
+.rodape{
+  display: flex;
+  align-items: flex-end;
+  color: #4a4a4a;
+}

@@ -1,0 +1,151 @@
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+header {
+    position: relative;
+}
+.carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 4px;
+    background: url(../img/sacola.png) no-repeat top right;
+    padding-right: 40px;
+    text-align: right;
+    width: 120px;
+}
+.links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.links ul {
+    font-size: 15px;
+}
+.links ul li {
+    margin-left: 25px;
+    display: inline;
+}
+.links a {
+    color: darkblue;
+}
+.top-space {
+    margin-top: 10px;
+    position: relative;
+}
+.bg-cinza {
+    background-color: lightgray !important;
+}
+.busca {
+    font-weight: bold;
+    margin-right: 15px;
+    width: 225px;
+    float: left;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.busca p, .busca div {
+    margin: 10px
+}
+
+.busca input {
+    border-radius: 10px;
+}
+
+.busca img {
+    cursor: pointer;
+}
+.menu {
+    font-weight: bold;
+    margin-right: 15px;
+    width: 225px;
+    float: left;
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.menu li {
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.imagem-principal {
+    padding-right: -5px;
+}
+.quadros {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 445px;
+    border-radius: 4px;
+}
+.quadros p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.quadros li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+.quadros figure {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+.quadro1 {
+    float: left;
+    background: linear-gradient(lightblue, lightpink);
+}
+.quadro2 {
+    float: right;
+    background: linear-gradient(lightpink, lightblue)
+}
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+footer .container {
+    position: relative;
+}
+.sites {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.sites li {
+    float: left;
+    margin-left: 25px
+}
+small {
+    float: right;
+}
+.balao {
+    cursor: pointer;
+    background: black;
+    font-size: 0.85em;
+    border-radius: 7px;
+    width: 80px;
+    height: auto;
+    color: whitesmoke;
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+}
+.balao:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    bottom: -10px;
+    left: 40%;
+}
